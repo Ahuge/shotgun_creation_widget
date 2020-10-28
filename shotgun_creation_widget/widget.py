@@ -153,7 +153,7 @@ class ShotgunEntityCreationWidget(QtWidgets.QWidget):
         if field_name not in self._field_widgets:
             raise ValueError("Unknown field {}".format(field_name))
         widget = self._field_widgets.get(field_name)
-        value = widget.value
+        value = widget.get_value()
         self._data[field_name] = value
 
     @QtCore.Slot(str)
