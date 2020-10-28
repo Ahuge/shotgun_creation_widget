@@ -1,6 +1,7 @@
 # Shotgun Creation Widget
 Shotgun Creation Widget is a generic collection of widgets that will allow you to create any type of Shotgun entity.
 
+![Video of ShotgunCreationWidget](.github/001.gif)
 
 ## Developer Information
 You shouldn't need much info hopefully.
